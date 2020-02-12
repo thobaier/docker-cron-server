@@ -1,0 +1,2 @@
+# add your cron jobs here
+* * * * 1-5 echo 'test' >> /cron/jobs/test.log 2>&1
