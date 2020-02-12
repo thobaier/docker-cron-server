@@ -1,8 +1,5 @@
 FROM alpine
 
-# mysql client
-RUN apk update && apk add mysql-client bash && rm -f /var/cache/apk/*
-
 # crontab
 COPY cron/jobs /cron/jobs
 COPY crontab /cron/crontab
